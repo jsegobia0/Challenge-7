@@ -14,9 +14,9 @@
 // var color for past ;
 // var color for present ;
 // var color for future ;
-// if past { color past} ;
-// if present { color present} ;
-// if future { color future} ;
+// if past { color past = grey} ;
+// if present { color present = red} ;
+// if future { color future = green} ;
 
 
 // when clicking on a time block the user can enter an event
