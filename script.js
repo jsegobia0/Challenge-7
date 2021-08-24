@@ -1,7 +1,9 @@
 // when opening the planner the cuurent day is displayed at the top of the page
 
-// vsr currentDay ;
+// var currentDay ;
+
 // .text current day to <p> ;
+
 // .append current day to <p> ;
 
 // when scrolling down the user is presented with time blocks for standard busines hours
