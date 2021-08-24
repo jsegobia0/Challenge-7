@@ -1,7 +1,12 @@
 // when opening the planner the cuurent day is displayed at the top of the page
 
 // var currentDay ;
-
+var currentDay = moment().format("MM Do YY");
+currentDay.text("<p>");
+$(".lead").append(currentDay);
+console.log(currentday);
+//  for 
+// moment().format("MMM Do YY");              
 // .text current day to <p> ;
 
 // .append current day to <p> ;
