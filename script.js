@@ -1,20 +1,10 @@
 // when opening the planner the cuurent day is displayed at the top of the page
-
 // var currentDay ;
-var currentDay = moment().format("MM Do YY");
-currentDay.text("<p>");
-$(".lead").append(currentDay);
-console.log(currentday);
-//  for 
-// moment().format("MMM Do YY");              
-// .text current day to <p> ;
+$("#currentDay").text(moment().format("MMM Do YY"));
+// moment().format("MMM Do YY")             
+// .text current day to <p>
+// .append current day to <p>
 
-// .append current day to <p> ;
-
-// when scrolling down the user is presented with time blocks for standard busines hours
-
-// create table rows for time-blocks ;
-// add table data for stadard business hours in table rows ;
 
 // when viewing time blocks for a specific day each time block is color-coded to indicate whether it is past, present, or future
 
